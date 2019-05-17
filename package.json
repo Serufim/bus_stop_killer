@@ -1,0 +1,20 @@
+{
+  "name": "phaser_learn_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "phaser": "^3.17.0"
+  }
+}
